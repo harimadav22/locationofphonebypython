@@ -3,10 +3,10 @@ import numbers
 import phonenumbers
 
 from phonenumbers import timezone
-text = "contact us at +919944945701 or +919840191937"
-numbers = phonenumbers.PhoneNumberMatcher(text,"IN")
-print("Hari Number")
-phoneNumber = phonenumbers.parse("+918825863092")
+text = "contact us at enter your number for reference"
+numbers = phonenumbers.PhoneNumberMatcher(text,"Enter your country code")
+print("Users Number")
+phoneNumber = phonenumbers.parse("Enter the number here")
 timezone = timezone.time_zones_for_number(phoneNumber)
 print(phoneNumber)
 print(timezone)
